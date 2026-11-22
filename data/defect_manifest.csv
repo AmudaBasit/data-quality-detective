@@ -1,0 +1,124 @@
+source_row,transaction_id,field,defect
+122,T00122,region,missing region
+117,T00117,region,missing region
+105,T00105,region,missing region
+114,T00114,region,missing region
+21,T00021,region,missing region
+154,T00154,region,missing region
+195,T00195,region,missing region
+2,T00002,region,missing region
+63,T00063,region,missing region
+141,T00141,region,missing region
+72,T00072,region,missing region
+159,T00159,region,missing region
+161,T00161,region,missing region
+143,T00143,region,missing region
+54,T00054,region,missing region
+13,T00013,region,missing region
+48,T00048,region,missing region
+38,T00038,region,missing region
+15,T00015,region,missing region
+168,T00168,region,missing region
+90,T00090,region,missing region
+10,T00010,region,missing region
+183,T00183,region,missing region
+9,T00009,region,missing region
+171,T00171,unit_price,missing unit price
+148,T00148,unit_price,missing unit price
+155,T00155,unit_price,missing unit price
+77,T00077,unit_price,missing unit price
+85,T00085,unit_price,missing unit price
+23,T00023,unit_price,missing unit price
+185,T00185,unit_price,missing unit price
+28,T00028,unit_price,missing unit price
+107,T00107,unit_price,missing unit price
+46,T00046,unit_price,missing unit price
+42,T00042,unit_price,missing unit price
+73,T00073,unit_price,missing unit price
+157,T00157,unit_price,missing unit price
+153,T00153,unit_price,missing unit price
+147,T00147,unit_price,missing unit price
+144,T00144,unit_price,missing unit price
+167,T00167,quantity,negative quantity
+199,T00199,quantity,negative quantity
+149,T00149,quantity,negative quantity
+93,T00093,quantity,negative quantity
+179,T00179,quantity,negative quantity
+24,T00024,quantity,negative quantity
+173,T00173,quantity,negative quantity
+83,T00083,quantity,negative quantity
+95,T00095,quantity,negative quantity
+98,T00098,quantity,negative quantity
+18,T00018,quantity,negative quantity
+110,T00110,quantity,negative quantity
+191,T00191,order_date,invalid calendar date
+17,T00017,order_date,invalid calendar date
+75,T00075,order_date,invalid calendar date
+121,T00121,order_date,invalid calendar date
+35,T00035,order_date,invalid calendar date
+32,T00032,order_date,invalid calendar date
+71,T00071,order_date,invalid calendar date
+172,T00172,order_date,invalid calendar date
+135,T00135,order_date,invalid calendar date
+106,T00106,order_date,invalid calendar date
+140,T00140,unit_price,price exceeds domain maximum
+186,T00186,unit_price,price exceeds domain maximum
+137,T00137,unit_price,price exceeds domain maximum
+182,T00182,unit_price,price exceeds domain maximum
+169,T00169,unit_price,price exceeds domain maximum
+176,T00176,unit_price,price exceeds domain maximum
+124,T00124,unit_price,price exceeds domain maximum
+74,T00074,unit_price,price exceeds domain maximum
+158,T00158,category,category label variant
+82,T00082,category,category label variant
+67,T00067,category,category label variant
+68,T00068,category,category label variant
+131,T00131,category,category label variant
+80,T00080,category,category label variant
+160,T00160,category,category label variant
+119,T00119,category,category label variant
+162,T00162,category,category label variant
+79,T00079,category,category label variant
+165,T00165,category,category label variant
+64,T00064,category,category label variant
+128,T00128,category,category label variant
+94,T00094,category,category label variant
+81,T00081,category,category label variant
+123,T00123,category,category label variant
+115,T00115,category,category label variant
+104,T00104,category,category label variant
+174,T00174,order_date,alternate date format
+145,T00145,order_date,alternate date format
+30,T00030,order_date,alternate date format
+91,T00091,order_date,alternate date format
+178,T00178,order_date,alternate date format
+25,T00025,order_date,alternate date format
+1,T00001,order_date,alternate date format
+16,T00016,order_date,alternate date format
+4,T00004,order_date,alternate date format
+60,T00060,order_date,alternate date format
+116,T00116,order_date,alternate date format
+198,T00198,order_date,alternate date format
+152,T00152,order_date,alternate date format
+27,T00027,order_date,alternate date format
+111,T00111,order_date,alternate date format
+981,T00201,*,exact duplicate
+982,T00202,*,exact duplicate
+983,T00203,*,exact duplicate
+984,T00204,*,exact duplicate
+985,T00205,*,exact duplicate
+986,T00206,*,exact duplicate
+987,T00207,*,exact duplicate
+988,T00208,*,exact duplicate
+989,T00209,*,exact duplicate
+990,T00210,*,exact duplicate
+991,T00211,*,exact duplicate
+992,T00212,*,exact duplicate
+993,T00213,*,exact duplicate
+994,T00214,*,exact duplicate
+995,T00215,*,exact duplicate
+996,T00216,*,exact duplicate
+997,T00217,*,exact duplicate
+998,T00218,*,exact duplicate
+999,T00219,*,exact duplicate
+1000,T00220,*,exact duplicate

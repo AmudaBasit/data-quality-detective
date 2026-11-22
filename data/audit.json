@@ -1,0 +1,126 @@
+{
+  "raw": {
+    "rows": 1000,
+    "passing_rows": 877,
+    "passing_pct": 87.7,
+    "missing_cells": {
+      "transaction_id": 0,
+      "order_date": 0,
+      "region": 24,
+      "category": 0,
+      "quantity": 0,
+      "unit_price": 16,
+      "returned": 0,
+      "refund_amount": 0
+    },
+    "rule_counts": {
+      "Extra exact copies": 20,
+      "Extra transaction IDs": 20,
+      "Missing required values": 40,
+      "Invalid transaction ID": 0,
+      "Invalid date": 10,
+      "Non-ISO date": 15,
+      "Noncanonical category": 18,
+      "Invalid region": 0,
+      "Invalid quantity": 12,
+      "Invalid unit price": 8,
+      "Invalid return flag": 0,
+      "Invalid refund amount": 0
+    },
+    "price_iqr_outliers": 8
+  },
+  "clean": {
+    "rows": 910,
+    "passing_rows": 910,
+    "passing_pct": 100.0,
+    "missing_cells": {
+      "transaction_id": 0,
+      "order_date": 0,
+      "region": 0,
+      "category": 0,
+      "quantity": 0,
+      "unit_price": 0,
+      "returned": 0,
+      "refund_amount": 0
+    },
+    "rule_counts": {
+      "Extra exact copies": 0,
+      "Extra transaction IDs": 0,
+      "Missing required values": 0,
+      "Invalid transaction ID": 0,
+      "Invalid date": 0,
+      "Non-ISO date": 0,
+      "Noncanonical category": 0,
+      "Invalid region": 0,
+      "Invalid quantity": 0,
+      "Invalid unit price": 0,
+      "Invalid return flag": 0,
+      "Invalid refund amount": 0
+    },
+    "price_iqr_outliers": 0
+  },
+  "privacy": {
+    "raw": {
+      "Unexpected columns": 0,
+      "Email-like cells": 0,
+      "US phone-like cells": 0,
+      "US SSN-like cells": 0
+    },
+    "clean": {
+      "Unexpected columns": 0,
+      "Email-like cells": 0,
+      "US phone-like cells": 0,
+      "US SSN-like cells": 0
+    }
+  },
+  "ml": {
+    "target": "returned",
+    "recommended_features": [
+      "region",
+      "category",
+      "quantity",
+      "unit_price"
+    ],
+    "positive_labels": 97,
+    "positive_rate": 0.1066,
+    "refund_signal_agreement": 1.0,
+    "cutoff_date": "2025-07-19",
+    "train_rows": 726,
+    "holdout_rows": 184,
+    "shared_transaction_ids": 0
+  },
+  "regions": [
+    {
+      "region": "East",
+      "records": 157,
+      "returned": 7,
+      "return_rate": 0.044585987261146494,
+      "share": 0.17252747252747253,
+      "under_10_pct": false
+    },
+    {
+      "region": "North",
+      "records": 479,
+      "returned": 47,
+      "return_rate": 0.09812108559498957,
+      "share": 0.5263736263736264,
+      "under_10_pct": false
+    },
+    {
+      "region": "South",
+      "records": 221,
+      "returned": 22,
+      "return_rate": 0.09954751131221719,
+      "share": 0.24285714285714285,
+      "under_10_pct": false
+    },
+    {
+      "region": "West",
+      "records": 53,
+      "returned": 21,
+      "return_rate": 0.39622641509433965,
+      "share": 0.05824175824175824,
+      "under_10_pct": true
+    }
+  ]
+}

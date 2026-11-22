@@ -1,0 +1,71 @@
+transaction_id,order_date,region,category,quantity,unit_price,returned,refund_amount,source_row,reason
+T00002,2025-01-01,,Electronics,7,10.56,1,73.92,2,Missing required values
+T00009,2025-01-03,,Grocery,4,128.3,1,513.2,9,Missing required values
+T00010,2025-01-03,,Grocery,2,154.68,0,0.0,10,Missing required values
+T00013,2025-01-04,,Grocery,4,124.81,0,0.0,13,Missing required values
+T00015,2025-01-04,,Grocery,4,119.7,0,0.0,15,Missing required values
+T00017,2025-02-30,South,Grocery,7,162.12,0,0.0,17,Invalid date
+T00018,2025-01-05,North,Home,-3,20.91,1,167.28,18,Invalid quantity
+T00021,2025-01-06,,Electronics,5,139.5,0,0.0,21,Missing required values
+T00023,2025-01-06,South,Home,2,,0,0.0,23,Missing required values
+T00024,2025-01-06,South,Home,-3,70.43,0,0.0,24,Invalid quantity
+T00028,2025-01-07,South,Home,3,,0,0.0,28,Missing required values
+T00032,2025-02-30,North,Home,4,6.26,0,0.0,32,Invalid date
+T00035,2025-02-30,East,Apparel,4,142.31,0,0.0,35,Invalid date
+T00038,2025-01-10,,Electronics,4,38.53,0,0.0,38,Missing required values
+T00042,2025-01-11,North,Apparel,1,,1,33.81,42,Missing required values
+T00046,2025-01-12,South,Home,1,,1,173.14,46,Missing required values
+T00048,2025-01-12,,Electronics,2,78.36,0,0.0,48,Missing required values
+T00054,2025-01-14,,Grocery,1,121.88,0,0.0,54,Missing required values
+T00063,2025-01-16,,Grocery,4,124.36,0,0.0,63,Missing required values
+T00071,2025-02-30,West,Home,5,11.7,0,0.0,71,Invalid date
+T00072,2025-01-18,,Grocery,7,111.09,0,0.0,72,Missing required values
+T00073,2025-01-19,North,Home,5,,0,0.0,73,Missing required values
+T00074,2025-01-19,South,Home,6,9999.0,0,0.0,74,Invalid unit price
+T00075,2025-02-30,East,Grocery,2,130.96,0,0.0,75,Invalid date
+T00077,2025-01-20,North,Apparel,7,,0,0.0,77,Missing required values
+T00083,2025-01-21,West,Electronics,-3,77.53,0,0.0,83,Invalid quantity
+T00085,2025-01-22,South,Electronics,7,,0,0.0,85,Missing required values
+T00090,2025-01-23,,Apparel,4,53.05,1,212.2,90,Missing required values
+T00093,2025-01-24,North,Apparel,-3,99.96,0,0.0,93,Invalid quantity
+T00095,2025-01-24,South,Apparel,-3,6.03,0,0.0,95,Invalid quantity
+T00098,2025-01-25,South,Apparel,-3,176.63,0,0.0,98,Invalid quantity
+T00105,2025-01-27,,Home,8,122.16,0,0.0,105,Missing required values
+T00106,2025-02-30,North,Grocery,6,34.36,0,0.0,106,Invalid date
+T00107,2025-01-27,South,Electronics,3,,0,0.0,107,Missing required values
+T00110,2025-01-28,South,Electronics,-3,65.76,0,0.0,110,Invalid quantity
+T00114,2025-01-29,,Grocery,4,150.38,1,601.52,114,Missing required values
+T00117,2025-01-30,,Grocery,5,159.06,0,0.0,117,Missing required values
+T00121,2025-02-30,North,Grocery,8,101.86,0,0.0,121,Invalid date
+T00122,2025-01-31,,Grocery,6,128.0,0,0.0,122,Missing required values
+T00124,2025-01-31,West,Home,4,9999.0,0,0.0,124,Invalid unit price
+T00135,2025-02-30,West,Electronics,4,114.47,0,0.0,135,Invalid date
+T00137,2025-02-04,North,Apparel,5,9999.0,0,0.0,137,Invalid unit price
+T00140,2025-02-04,North,Grocery,3,9999.0,0,0.0,140,Invalid unit price
+T00141,2025-02-05,,Grocery,8,26.76,0,0.0,141,Missing required values
+T00143,2025-02-05,,Grocery,5,9.53,0,0.0,143,Missing required values
+T00144,2025-02-05,South,Electronics,5,,0,0.0,144,Missing required values
+T00147,2025-02-06,North,Electronics,3,,0,0.0,147,Missing required values
+T00148,2025-02-06,North,Apparel,1,,0,0.0,148,Missing required values
+T00149,2025-02-07,North,Apparel,-3,120.09,0,0.0,149,Invalid quantity
+T00153,2025-02-08,East,Home,5,,0,0.0,153,Missing required values
+T00154,2025-02-08,,Electronics,8,170.74,0,0.0,154,Missing required values
+T00155,2025-02-08,North,Grocery,5,,0,0.0,155,Missing required values
+T00157,2025-02-09,South,Home,2,,0,0.0,157,Missing required values
+T00159,2025-02-09,,Apparel,3,83.15,0,0.0,159,Missing required values
+T00161,2025-02-10,,Home,7,45.87,0,0.0,161,Missing required values
+T00167,2025-02-11,North,Apparel,-3,154.06,0,0.0,167,Invalid quantity
+T00168,2025-02-11,,Apparel,6,114.69,0,0.0,168,Missing required values
+T00169,2025-02-12,North,Electronics,2,9999.0,0,0.0,169,Invalid unit price
+T00171,2025-02-12,South,Electronics,8,,0,0.0,171,Missing required values
+T00172,2025-02-30,North,Grocery,1,56.34,0,0.0,172,Invalid date
+T00173,2025-02-13,North,Apparel,-3,34.75,1,104.25,173,Invalid quantity
+T00176,2025-02-13,East,Grocery,3,9999.0,0,0.0,176,Invalid unit price
+T00179,2025-02-14,North,Grocery,-3,8.84,0,0.0,179,Invalid quantity
+T00182,2025-02-15,South,Grocery,3,9999.0,0,0.0,182,Invalid unit price
+T00183,2025-02-15,,Grocery,8,10.84,0,0.0,183,Missing required values
+T00185,2025-02-16,North,Grocery,5,,0,0.0,185,Missing required values
+T00186,2025-02-16,East,Apparel,5,9999.0,0,0.0,186,Invalid unit price
+T00191,2025-02-30,North,Grocery,4,118.34,0,0.0,191,Invalid date
+T00195,2025-02-18,,Apparel,3,159.95,0,0.0,195,Missing required values
+T00199,2025-02-19,North,Apparel,-3,120.98,0,0.0,199,Invalid quantity
