@@ -20,8 +20,8 @@ class ProjectTests(unittest.TestCase):
 
     def test_generation_and_defect_counts(self):
         generated, manifest = generate()
-        self.assertEqual(generated.to_csv(index=False), (DATA / "retail_raw.csv").read_text())
-        self.assertEqual(manifest.to_csv(index=False), (DATA / "defect_manifest.csv").read_text())
+        self.assertEqual(generated.to_csv(index=False, lineterminator="\n"), (DATA / "retail_raw.csv").read_text())
+        self.assertEqual(manifest.to_csv(index=False, lineterminator="\n"), (DATA / "defect_manifest.csv").read_text())
         self.assertEqual(len(generated), 1000)
         self.assertEqual(len(manifest), 123)
         raw = metrics(self.raw)
