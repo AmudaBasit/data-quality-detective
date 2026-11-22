@@ -1,5 +1,7 @@
 # Data Quality Detective
 
+[Open the live dashboard](https://data-quality-detective-amudabasit.streamlit.app/)
+
 An interactive Streamlit case study for **Artifact 4**. Investigate 1,000 synthetic retail records, compare quality before and after cleaning, and review the release and return-prediction checks. See the [portfolio write-up](PORTFOLIO.md) and [reflection](REFLECTION.md).
 
 ## Run and verify

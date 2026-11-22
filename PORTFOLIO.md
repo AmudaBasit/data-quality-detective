@@ -1,5 +1,7 @@
 # Artifact 4 · Data Quality Detective
 
+[Open the live dashboard](https://data-quality-detective-amudabasit.streamlit.app/)
+
 **Project.** An interactive analysis of how bad input data affects retail reporting and return prediction. The dashboard lets a reviewer switch between raw and cleaned transactions, filter by defect, inspect decisions at the transaction level, and download the evidence behind the results.
 
 **Approach.** I built a reproducible 1,000-record synthetic dataset with missing values, duplicates, invalid dates and quantities, extreme prices, and inconsistent formats. I measured violations before cleaning, standardized recoverable values, and recorded every cleaning decision. I used quarantine to preserve questionable source rows for review.

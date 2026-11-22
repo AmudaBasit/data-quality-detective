@@ -50,7 +50,7 @@ with overview:
             "Raw": [before["rule_counts"]["Invalid unit price"], before["price_iqr_outliers"]],
             "Clean": [after["rule_counts"]["Invalid unit price"], after["price_iqr_outliers"]],
         }, index=["Invalid by price rule", "Flagged by 1.5 × IQR"]))
-        st.caption("The price rule accepts $0.01–$500. IQR fences are calculated separately for each dataset from its finite numeric prices.")
+        st.caption("The price rule accepts USD 0.01–500. IQR fences are calculated separately for each dataset from its finite numeric prices.")
 
 with evidence:
     st.subheader("Transaction explorer")
